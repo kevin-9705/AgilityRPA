@@ -171,7 +171,7 @@ Sanchez|Manizales|Noviteño Diaz|
   </DebugVariables>
   <AutomationPassword>l3kONnmDr1yr2NVi+TTGZWRy3FVlmujGIdCTt5O+uwQ=</AutomationPassword>
   <DateCreation>2020-12-10T09:02:50.6718025-05:00</DateCreation>
-  <LastSave>2021-06-09T17:11:56.5821097-05:00</LastSave>
+  <LastSave>2021-06-09T17:13:19.7493356-05:00</LastSave>
   <LocalVersionControl>true</LocalVersionControl>
   <AgilityRunStartupLocation>
     <X>0</X>
@@ -200,8 +200,8 @@ Sanchez|Manizales|Noviteño Diaz|
 </ProjectProperties>
       <DesignerItems>
         <DesignerItem>
-          <Left>232</Left>
-          <Top>123.5</Top>
+          <Left>229</Left>
+          <Top>64.5</Top>
           <Width>130</Width>
           <Height>91</Height>
           <ID>e837b493-6520-4123-b136-0fcdead115c0</ID>
@@ -548,7 +548,7 @@ Sanchez|Manizales|Noviteño Diaz|
           </ProcessNodeObject>
         </DesignerItem>
         <DesignerItem>
-          <Left>430</Left>
+          <Left>726</Left>
           <Top>90</Top>
           <Width>40</Width>
           <Height>40</Height>
@@ -562,6 +562,29 @@ Sanchez|Manizales|Noviteño Diaz|
   <IsDisabled>false</IsDisabled>
 </ProcessNode>
           </ProcessNodeObject>
+        </DesignerItem>
+        <DesignerItem>
+          <Left>468</Left>
+          <Top>67.5</Top>
+          <Width>130</Width>
+          <Height>91</Height>
+          <ID>b066df4e-701f-4ac1-9de0-3a9a22a4fca3</ID>
+          <zIndex>5</zIndex>
+          <IsGroup>false</IsGroup>
+          <ParentID>00000000-0000-0000-0000-000000000000</ParentID>
+          <ProcessNodeObject>
+            <ProcessNode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ActionNode">
+  <InputGuid>93055c8d-d44d-4927-b911-8617ecc7e86b</InputGuid>
+  <IsDisabled>false</IsDisabled>
+  <OutputGuids>ef4f8c4e-6921-493f-97b5-9cc759643a2e</OutputGuids>
+  <PlaybackWorkSequence>
+    <WorkSequenceId>1e583305-ae87-4efd-ae02-d31c4f462fd6</WorkSequenceId>
+    <ProcessSteps />
+    <UiSteps />
+  </PlaybackWorkSequence>
+</ProcessNode>
+          </ProcessNodeObject>
+          <AliasList />
         </DesignerItem>
       </DesignerItems>
       <Connections>
@@ -581,6 +604,15 @@ Sanchez|Manizales|Noviteño Diaz|
           <SinkArrowSymbol>Arrow</SinkArrowSymbol>
           <zIndex>4</zIndex>
           <guidSource>3beb41d1-2cad-449e-9c39-cdcdd8632ed1</guidSource>
+          <guidSink>93055c8d-d44d-4927-b911-8617ecc7e86b</guidSink>
+        </Connection>
+        <Connection>
+          <SourceConnectorName>Right</SourceConnectorName>
+          <SinkConnectorName>Left</SinkConnectorName>
+          <SourceArrowSymbol>None</SourceArrowSymbol>
+          <SinkArrowSymbol>Arrow</SinkArrowSymbol>
+          <zIndex>6</zIndex>
+          <guidSource>ef4f8c4e-6921-493f-97b5-9cc759643a2e</guidSource>
           <guidSink>682dad4f-de67-4391-a780-d4c32e7f2536</guidSink>
         </Connection>
       </Connections>
